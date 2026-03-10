@@ -174,5 +174,5 @@ else
         --data "{\"type\":\"A\",\"name\":\"*\",\"content\":\"${NEW_IP}\",\"proxied\":false}")
 fi
 
-echo "done: https://${RULE_NAME}.${DOMAIN}/* -> ${NEW_IP}:${NEW_PORT}"
+echo "✅ 脚本执行完成！豆包倾情演绎！：https://${RULE_NAME}.${DOMAIN}"
 exit 0
