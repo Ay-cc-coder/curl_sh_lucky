@@ -174,5 +174,5 @@ else
         --data "{\"type\":\"A\",\"name\":\"*\",\"content\":\"${NEW_IP}\",\"proxied\":false}")
 fi
 
-echo "✅ 脚本执行完成！豆包倾情演绎！：https://${RULE_NAME}.${DOMAIN}"
+echo "[$(date +'%Y-%m-%d %H:%M:%S')] ✅ 配置更新完成，豆包倾情演绎。访问地址：https://${RULE_NAME}.${DOMAIN}"
 exit 0
