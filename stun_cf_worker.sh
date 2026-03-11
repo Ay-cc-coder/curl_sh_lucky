@@ -62,7 +62,7 @@ async function handleRequest(request) {
     const restPath = pathSegments.slice(1).join('/');
     const finalUrl = `https://${targetSubdomain}.${targetDomain}:${targetPort}${restPath ? '/' + restPath : ''}${url.search}`;
     
-    return Response.redirect(finalUrl, 302);
+    return Response.redirect(finalUrl, 307);
   }
   return new Response("Please use https://yourdomain.com/subdomain", { status: 404 });
 }
